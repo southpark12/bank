@@ -36,13 +36,15 @@ let appState = {
     ]
 };
 
-(function splitTransactionsByDate() {
-    if (typeof INITIAL_PAYMENTS === 'undefined' || typeof parseInitialPayments !== 'function') return;
+// Only transactions dated up to now are shown; later ones stay in futureTransactions (hidden)
+function splitTransactionsByDate(list) {
     const now = Date.now();
-    parseInitialPayments(INITIAL_PAYMENTS).forEach(tx => {
+    appState.transactions = [];
+    appState.futureTransactions = [];
+    list.forEach(tx => {
         (tx.date.getTime() <= now ? appState.transactions : appState.futureTransactions).push(tx);
     });
-})();
+}
 
 // Russian Months mapping
 const monthNominative = [
@@ -68,9 +70,14 @@ function formatTime(date) {
 }
 
 // --- INITIALIZATION ---
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
     initTheme();
     initNavigation();
+    try {
+        splitTransactionsByDate(await loadBankTransactions());
+    } catch (err) {
+        console.error(err);
+    }
     renderActiveView();
 });
 
