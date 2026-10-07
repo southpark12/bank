@@ -1,0 +1,528 @@
+/* style.css - Custom Application Layout and Overrides */
+
+/* Base Reset & Theme Variables */
+:root {
+    --bg-page-dark: #101418;
+    --bg-page-light: #f5f7fa;
+    --bg-card-dark: #21272e;
+    --bg-card-light: #ffffff;
+    --bg-quick-action-dark: #132c4a;
+    --bg-quick-action-light: #e8f2ff;
+    --text-primary-dark: #f5f7fa;
+    --text-primary-light: #1c2024;
+    --text-secondary-dark: #9aa8b6;
+    --text-secondary-light: #606d7a;
+    --border-dark: rgba(255, 255, 255, 0.12);
+    --border-light: rgba(0, 0, 0, 0.08);
+
+    --bg-quick-action: var(--bg-quick-action-dark);
+    --bg-input-dark: #262d35;
+    --bg-input-light: #eef2f5;
+    --bg-icon-btn-dark: #262d35;
+    --bg-icon-btn-light: #eef2f5;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Onest', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: var(--layerFloor0, #101418);
+    color: var(--textPrimary, #f5f7fa);
+    overflow-x: hidden;
+    transition: background-color 0.25s ease;
+}
+
+/* Theme overrides on root html element */
+html[data-ob-theme="light"],
+html[data-ob-theme="light"] body {
+    background: var(--bg-page-light) !important;
+    color: var(--text-primary-light) !important;
+    --layerFloor0: var(--bg-page-light) !important;
+    --layerFloor1: var(--bg-card-light) !important;
+    --textPrimary: var(--text-primary-light) !important;
+    --textSecondary: var(--text-secondary-light) !important;
+    --border-dark: var(--border-light) !important;
+    --bg-quick-action: var(--bg-quick-action-light) !important;
+    --bg-input: var(--bg-input-light) !important;
+    --bg-icon-btn: var(--bg-icon-btn-light) !important;
+}
+
+html[data-ob-theme="dark"],
+html[data-ob-theme="dark"] body {
+    background: var(--bg-page-dark) !important;
+    color: var(--text-primary-dark) !important;
+    --layerFloor0: var(--bg-page-dark) !important;
+    --layerFloor1: var(--bg-card-dark) !important;
+    --textPrimary: var(--text-primary-dark) !important;
+    --textSecondary: var(--text-secondary-dark) !important;
+    --border-dark: rgba(255, 255, 255, 0.12) !important;
+    --bg-quick-action: var(--bg-quick-action-dark) !important;
+    --bg-input: var(--bg-input-dark) !important;
+    --bg-icon-btn: var(--bg-icon-btn-dark) !important;
+}
+
+@media (prefers-color-scheme: light) {
+
+    html:not([data-ob-theme]),
+    html:not([data-ob-theme]) body {
+        background: var(--bg-page-light);
+        color: var(--text-primary-light);
+        --layerFloor0: var(--bg-page-light);
+        --layerFloor1: var(--bg-card-light);
+        --textPrimary: var(--text-primary-light);
+        --textSecondary: var(--text-secondary-light);
+        --border-dark: var(--border-light);
+        --bg-quick-action: var(--bg-quick-action-light);
+    }
+}
+
+/* App Centering & Natural Layout */
+#app {
+    max-width: 440px;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: var(--layerFloor0, #0e1113);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.25s ease;
+}
+
+@media (max-width: 480px) {
+    #app {
+        box-shadow: none;
+    }
+}
+
+/* Viewport scrolling container */
+#view-container {
+    flex: 1;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: calc(96px + env(safe-area-inset-bottom, 0px));
+}
+
+#view-container:has(#chat-scroller),
+#view-container.chat-view-active {
+    padding-bottom: 0 !important;
+    overflow: hidden !important;
+}
+
+/* Fixed Bottom Tab Bar Layout & Mask Icons */
+#app-tabbar,
+.tabbar {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    height: calc(56px + env(safe-area-inset-bottom, 0px)) !important;
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    max-width: 440px !important;
+    width: 100% !important;
+    background: var(--layerFloor1, #1d2121) !important;
+    border-top: 1px solid var(--border-dark) !important;
+    z-index: 9999 !important;
+    padding-bottom: env(safe-area-inset-bottom, 0px) !important;
+    box-sizing: border-box !important;
+}
+
+#app-tabbar .tab,
+.tabbar .tab {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex: 1 !important;
+    height: 100% !important;
+    cursor: pointer !important;
+    color: var(--textSecondary, #8c9aa6) !important;
+    text-decoration: none !important;
+}
+
+#app-tabbar .tab.active,
+.tabbar .tab.active {
+    color: #0084ff !important;
+}
+
+#app-tabbar .tab .icon,
+.tabbar .tab .icon {
+    width: 24px !important;
+    height: 24px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+#app-tabbar .tab .icon span.icon,
+.tabbar .tab .icon span.icon {
+    display: inline-block !important;
+    width: var(--icon-size, 24px) !important;
+    height: var(--icon-size, 24px) !important;
+    background-color: currentColor !important;
+    -webkit-mask: var(--mask-url) no-repeat center / contain !important;
+    mask: var(--mask-url) no-repeat center / contain !important;
+}
+
+#app-tabbar .title,
+.tabbar .title,
+.tab .title,
+.title.svelte-6nqdyk {
+    font-size: 10.5px !important;
+    font-weight: 500 !important;
+    line-height: 1.1 !important;
+    margin-top: 3px !important;
+    letter-spacing: -0.1px !important;
+    color: inherit !important;
+    text-align: center !important;
+}
+
+/* Page-Wide Cards under "Счета и карты" */
+.ozon-cards-box {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+}
+
+.ozon-account-card {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 16px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    border-radius: 16px !important;
+    background: var(--layerFloor1, #1d2124) !important;
+}
+
+/* Custom Quick Action Cards */
+.quick-action-card {
+    flex: 1;
+    background: var(--bg-quick-action, rgba(0, 91, 255, 0.14));
+    border-radius: 14px;
+    padding: 14px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: transform 0.15s ease, opacity 0.15s ease, background-color 0.2s ease;
+}
+
+.quick-action-card:active {
+    transform: scale(0.97);
+    opacity: 0.9;
+}
+
+.quick-action-icon {
+    color: #0084ff;
+    height: 28px;
+    width: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quick-action-text {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    color: #0084ff;
+    line-height: 1.2;
+}
+
+/* Scrollbar customization */
+#view-container::-webkit-scrollbar {
+    width: 4px;
+}
+
+#view-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#view-container::-webkit-scrollbar-thumb {
+    background: rgba(128, 128, 128, 0.2);
+    border-radius: 10px;
+}
+
+/* Interactive Row feedback */
+.transaction-row {
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+}
+
+.transaction-row:active {
+    background-color: rgba(128, 128, 128, 0.1) !important;
+}
+
+/* Header sticky */
+.header.svelte-1hmh4r3 {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 900 !important;
+    width: 100% !important;
+    background: var(--layerFloor0, #0e1113) !important;
+    padding-top: calc(14px + env(safe-area-inset-top, 0px)) !important;
+}
+
+/* Segmented Control animation */
+.payments-toggle-custom {
+    display: flex;
+    background: var(--layerFloor1, #1d2124);
+    border-radius: 10px;
+    padding: 3px;
+    margin: 12px 16px;
+}
+
+.payments-toggle-custom button {
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 8px;
+    border-radius: 8px;
+    color: var(--textSecondary);
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.payments-toggle-custom button.active {
+    background: rgba(255, 255, 255, 0.12);
+    color: var(--textPrimary);
+}
+
+html[data-ob-theme="light"] .payments-toggle-custom button.active {
+    background: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Chat UI Overrides */
+.chat-user-bubble {
+    background: rgba(0, 91, 255, 0.28);
+    color: #ffffff;
+    border-radius: 16px 16px 4px 16px;
+    padding: 10px 14px;
+    font-size: 14px;
+    line-height: 1.4;
+    word-break: break-word;
+}
+
+html[data-ob-theme="light"] .chat-user-bubble {
+    background: #005bff;
+    color: #ffffff;
+}
+
+.chat-support-card {
+    background: var(--layerFloor1, #1d2124);
+    color: var(--textPrimary);
+    border-radius: 16px;
+    padding: 14px 16px;
+    font-size: 13.5px;
+    line-height: 1.45;
+    border: none;
+}
+
+.chat-input-bar {
+    position: fixed;
+    bottom: calc(56px + env(safe-area-inset-bottom, 0px));
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 440px;
+    width: 100%;
+    background: var(--layerFloor0, #0e1113);
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 1000;
+    border-top: 1px solid var(--border-dark);
+}
+
+/* Card Icon Circles */
+.account-icon-circle {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: var(--bg-quick-action, rgba(0, 91, 255, 0.22)) !important;
+    color: #0084ff !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+/* Button "Новый счёт или продукт" */
+.btn-new-product {
+    margin-top: 12px;
+    border-radius: 14px;
+    height: 48px;
+    border: none;
+    background: var(--bg-quick-action, #132c4a) !important;
+    color: #0084ff !important;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.btn-new-product:active {
+    transform: scale(0.98);
+}
+
+/* History Search Input */
+.history-search-input {
+    width: 100%;
+    height: 42px;
+    padding-left: 38px;
+    padding-right: 12px;
+    border: none;
+    border-radius: 12px;
+    background: var(--bg-input, #262d35) !important;
+    color: var(--textPrimary) !important;
+    outline: none;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.history-search-input::placeholder {
+    color: var(--textSecondary);
+}
+
+/* Transaction Icon Box */
+.tx-icon-box {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    background: var(--bg-icon-btn, #262d35) !important;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a272ff !important;
+    flex-shrink: 0;
+}
+
+/* Payments Top 4 Cards */
+.payments-top-card {
+    background: var(--layerFloor1, #21272e) !important;
+    border: none;
+    border-radius: 14px;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+    transition: transform 0.15s ease;
+}
+
+.payments-top-card:active {
+    transform: scale(0.97);
+}
+
+.payments-top-card .icon-wrap {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background: var(--bg-quick-action, rgba(0, 91, 255, 0.22));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0084ff;
+}
+
+/* Chat Support Message Bubble */
+.chat-support-bubble {
+    background: var(--layerFloor1, #21272e) !important;
+    color: var(--textPrimary) !important;
+    border: none;
+    border-radius: 16px;
+    padding: 12px 16px;
+    max-width: 85%;
+    word-break: break-word;
+    font-size: 13.5px;
+    line-height: 1.45;
+    white-space: pre-line;
+}
+
+/* Chat Bottom Panel Elements */
+.chat-attach-btn {
+    border: none;
+    background: var(--bg-icon-btn, #262d35) !important;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
+    color: #0084ff !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: transform 0.15s ease;
+}
+
+.chat-attach-btn:active {
+    transform: scale(0.95);
+}
+
+.chat-input-field {
+    flex: 1;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background: var(--bg-input, #262d35) !important;
+    padding: 0 16px;
+    color: var(--textPrimary) !important;
+    outline: none;
+    font-size: 14px;
+}
+
+.chat-input-field::placeholder {
+    color: var(--textSecondary);
+}
+
+.chat-send-btn {
+    border: none;
+    background: var(--bg-icon-btn, #262d35) !important;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
+    color: #0084ff !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: transform 0.15s ease;
+}
+
+.chat-send-btn:active {
+    transform: scale(0.95);
+}
