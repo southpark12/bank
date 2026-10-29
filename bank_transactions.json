@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-12T11:10:07",
+  "generated_at": "2026-10-29T15:21:06",
   "source": "production.db:bank_transactions",
-  "count": 158,
+  "count": 159,
   "min_balance_rub": 4100.0,
-  "final_balance_rub": 3622025.0,
+  "final_balance_rub": 3337025.0,
   "transactions": [
     {
       "transaction_id": "TX-2026-0001",
@@ -808,6 +808,22 @@
     {
       "transaction_id": "TX-2026-0051",
       "date": "2026-10-03",
+      "time": "11:52:07",
+      "doc_number": "Чек банкомата",
+      "operation_type": "Списание",
+      "amount_rub": 285000.0,
+      "payer_account": "40802810900001979691",
+      "receiver_account": null,
+      "counterparty_name": "ИП Фон Берг Юрген Александрович",
+      "counterparty_inn": "233803342844",
+      "counterparty_bank": "ООО \"ОЗОН Банк\"",
+      "counterparty_bik": "044525068",
+      "payment_purpose": "Снятие наличных в банкомате с расчетного счета на хозяйственные нужды. НДС не облагается.",
+      "balance_rub": 701625.0
+    },
+    {
+      "transaction_id": "TX-2026-0052",
+      "date": "2026-10-03",
       "time": "12:47:04",
       "doc_number": "п/п 180",
       "operation_type": "Поступление",
@@ -819,10 +835,10 @@
       "counterparty_bank": "АО \"АЛЬФА-БАНК\"",
       "counterparty_bik": "044525593",
       "payment_purpose": "Предоплата 40% по спец. № 1 к дог. № МТЮ-2026/09 от 16.09.2026. Без НДС (УСН).",
-      "balance_rub": 1002945.0
+      "balance_rub": 717945.0
     },
     {
-      "transaction_id": "TX-2026-0052",
+      "transaction_id": "TX-2026-0053",
       "date": "2026-10-03",
       "time": "14:14:04",
       "doc_number": "№ 740",
@@ -835,10 +851,10 @@
       "counterparty_bank": "ПАО КБ \"ЦЕНТР-ИНВЕСТ\"",
       "counterparty_bik": "046015762",
       "payment_purpose": "Постоплата по договору № ДТ-2026-09/3D, Акт № 1 от 02.10.2026 г. за выполненные работы по 3D-печати. Без НДС",
-      "balance_rub": 1040065.0
+      "balance_rub": 755065.0
     },
     {
-      "transaction_id": "TX-2026-0053",
+      "transaction_id": "TX-2026-0054",
       "date": "2026-10-03",
       "time": "16:09:58",
       "doc_number": "159",
@@ -851,10 +867,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "ОКОНЧАТЕЛЬНЫЙ РАСЧЕТ 70% ПО АКТУ № 1 ОТ 02.10.2026 К ДОГОВОРУ № ЭЛИД-2026/09. БЕЗ НДС",
-      "balance_rub": 1103275.0
+      "balance_rub": 818275.0
     },
     {
-      "transaction_id": "TX-2026-0054",
+      "transaction_id": "TX-2026-0055",
       "date": "2026-10-04",
       "time": "10:41:25",
       "doc_number": "№ 628",
@@ -867,10 +883,10 @@
       "counterparty_bank": "АО \"АЛЬФА-БАНК\"",
       "counterparty_bik": "044525593",
       "payment_purpose": "Оплата аванса 50% по счету № 123 от 03.10.2026 к договору поставки № ЮГЛ-2026-09/3D. НДС не облагается.",
-      "balance_rub": 1155475.0
+      "balance_rub": 870475.0
     },
     {
-      "transaction_id": "TX-2026-0055",
+      "transaction_id": "TX-2026-0056",
       "date": "2026-10-04",
       "time": "12:18:15",
       "doc_number": "п/п № 459",
@@ -883,10 +899,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "Аванс за изготовление деталей по спец №1 к дог. от 11.09.26. НДС не облагается.",
-      "balance_rub": 1194325.0
+      "balance_rub": 909325.0
     },
     {
-      "transaction_id": "TX-2026-0056",
+      "transaction_id": "TX-2026-0057",
       "date": "2026-10-04",
       "time": "13:47:26",
       "doc_number": "п/п 539",
@@ -899,10 +915,10 @@
       "counterparty_bank": "ПАО КБ \"ЦЕНТР-ИНВЕСТ\"",
       "counterparty_bik": "046015762",
       "payment_purpose": "Аванс за изготовление деталей по спец №1 к дог. от 26.08.26. НДС не облагается.",
-      "balance_rub": 1241485.0
+      "balance_rub": 956485.0
     },
     {
-      "transaction_id": "TX-2026-0057",
+      "transaction_id": "TX-2026-0058",
       "date": "2026-10-04",
       "time": "15:04:01",
       "doc_number": "п/п 803",
@@ -915,10 +931,10 @@
       "counterparty_bank": "ПАО КБ \"ЦЕНТР-ИНВЕСТ\"",
       "counterparty_bik": "046015762",
       "payment_purpose": "ПОСТОПЛАТА 60% ЗА ИЗГОТОВЛЕНИЕ ДЕТАЛЕЙ ПО АКТУ № 1 ОТ 03.10.2026 Г. НДС НЕ ОБЛАГАЕТСЯ",
-      "balance_rub": 1277485.0
+      "balance_rub": 992485.0
     },
     {
-      "transaction_id": "TX-2026-0058",
+      "transaction_id": "TX-2026-0059",
       "date": "2026-10-04",
       "time": "16:13:22",
       "doc_number": "584",
@@ -931,10 +947,10 @@
       "counterparty_bank": "АО \"АЛЬФА-БАНК\"",
       "counterparty_bik": "044525593",
       "payment_purpose": "Доплата 70% по акту № 1 от 03.10.2026 к спец. № 1 дог. № АЭРО/2026-09-3D. НДС не обл.",
-      "balance_rub": 1389625.0
+      "balance_rub": 1104625.0
     },
     {
-      "transaction_id": "TX-2026-0059",
+      "transaction_id": "TX-2026-0060",
       "date": "2026-10-05",
       "time": "12:27:10",
       "doc_number": "№ 771",
@@ -947,10 +963,10 @@
       "counterparty_bank": "АО \"АЛЬФА-БАНК\"",
       "counterparty_bik": "044525593",
       "payment_purpose": "Оплата аванса 70% по счету № 153 от 03.10.2026 к договору поставки № ДЛ-08/26-3D. НДС не облагается.",
-      "balance_rub": 1450385.0
+      "balance_rub": 1165385.0
     },
     {
-      "transaction_id": "TX-2026-0060",
+      "transaction_id": "TX-2026-0061",
       "date": "2026-10-05",
       "time": "14:32:23",
       "doc_number": "600",
@@ -963,10 +979,10 @@
       "counterparty_bank": "КБ \"КУБАНЬ КРЕДИТ\" ООО",
       "counterparty_bik": "040349722",
       "payment_purpose": "Доплата 30% по акту № 1 от 04.10.2026 к спец. № 1 дог. № ККЗ-3D/2026-09. НДС не обл.",
-      "balance_rub": 1491230.0
+      "balance_rub": 1206230.0
     },
     {
-      "transaction_id": "TX-2026-0061",
+      "transaction_id": "TX-2026-0062",
       "date": "2026-10-05",
       "time": "16:07:59",
       "doc_number": "№ 236",
@@ -979,10 +995,10 @@
       "counterparty_bank": "ФИЛИАЛ \"РОСТОВСКИЙ\" БАНКА ВТБ (ПАО)",
       "counterparty_bik": "046015999",
       "payment_purpose": "Доплата 60% по акту № 1 от 04.10.2026 к спец. № 1 дог. № ЭЭ-08/2026-3D. НДС не обл.",
-      "balance_rub": 1527230.0
+      "balance_rub": 1242230.0
     },
     {
-      "transaction_id": "TX-2026-0062",
+      "transaction_id": "TX-2026-0063",
       "date": "2026-10-06",
       "time": "11:08:27",
       "doc_number": "п/п 456",
@@ -995,10 +1011,10 @@
       "counterparty_bank": "КРАСНОДАРСКОЕ ОТДЕЛЕНИЕ N8619 ПАО СБЕРБАНК",
       "counterparty_bik": "040349602",
       "payment_purpose": "Оплата авансового платежа (60%) по спец. № 1 к договору № АГАТ-09/2026-ПОСТ. Без НДС",
-      "balance_rub": 1604150.0
+      "balance_rub": 1319150.0
     },
     {
-      "transaction_id": "TX-2026-0063",
+      "transaction_id": "TX-2026-0064",
       "date": "2026-10-06",
       "time": "12:32:58",
       "doc_number": "321",
@@ -1011,10 +1027,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "Оплата аванса 30% по счету № 189 от 04.10.2026 к договору поставки № ЛИЛ-2026-09/П. НДС не облагается.",
-      "balance_rub": 1629710.0
+      "balance_rub": 1344710.0
     },
     {
-      "transaction_id": "TX-2026-0064",
+      "transaction_id": "TX-2026-0065",
       "date": "2026-10-06",
       "time": "14:42:39",
       "doc_number": "155",
@@ -1027,10 +1043,10 @@
       "counterparty_bank": "ФИЛИАЛ \"РОСТОВСКИЙ\" БАНКА ВТБ (ПАО)",
       "counterparty_bik": "046015999",
       "payment_purpose": "Постоплата 60% по акту №1 от 05.10.26 за Кондукторы позиционирования деталей. Сумма 74190.00, без НДС",
-      "balance_rub": 1703900.0
+      "balance_rub": 1418900.0
     },
     {
-      "transaction_id": "TX-2026-0065",
+      "transaction_id": "TX-2026-0066",
       "date": "2026-10-06",
       "time": "16:04:24",
       "doc_number": "п/п 200",
@@ -1043,10 +1059,10 @@
       "counterparty_bank": "АО \"АЛЬФА-БАНК\"",
       "counterparty_bik": "044525593",
       "payment_purpose": "Окончательный расчет (60%) по Акту приема-передачи № 1 от 05.10.2026 г. НДС не облагается (УСН).",
-      "balance_rub": 1728380.0
+      "balance_rub": 1443380.0
     },
     {
-      "transaction_id": "TX-2026-0066",
+      "transaction_id": "TX-2026-0067",
       "date": "2026-10-07",
       "time": "12:01:18",
       "doc_number": "№ 344",
@@ -1059,10 +1075,10 @@
       "counterparty_bank": "ПАО КБ \"ЦЕНТР-ИНВЕСТ\"",
       "counterparty_bik": "046015762",
       "payment_purpose": "Аванс 30% по сч. № 182 от 05.10.2026 за изготовление Корпуса сварочных инверторов (PETG). Без НДС (УСН).",
-      "balance_rub": 1757630.0
+      "balance_rub": 1472630.0
     },
     {
-      "transaction_id": "TX-2026-0067",
+      "transaction_id": "TX-2026-0068",
       "date": "2026-10-07",
       "time": "14:48:50",
       "doc_number": "№ 76",
@@ -1075,10 +1091,10 @@
       "counterparty_bank": "ПАО КБ \"ЦЕНТР-ИНВЕСТ\"",
       "counterparty_bik": "046015762",
       "payment_purpose": "Доплата 70% по акту № 1 от 06.10.2026 к спец. № 1 дог. № ГОР-08/2026. НДС не обл.",
-      "balance_rub": 1838130.0
+      "balance_rub": 1553130.0
     },
     {
-      "transaction_id": "TX-2026-0068",
+      "transaction_id": "TX-2026-0069",
       "date": "2026-10-08",
       "time": "10:43:42",
       "doc_number": "№ 760",
@@ -1091,10 +1107,10 @@
       "counterparty_bank": "КРАСНОДАРСКОЕ ОТДЕЛЕНИЕ N8619 ПАО СБЕРБАНК",
       "counterparty_bik": "040349602",
       "payment_purpose": "Оплата аванса 50% по счету № 137 от 07.10.2026 к договору поставки № КПЗ-3D/2026-10. НДС не облагается.",
-      "balance_rub": 1880910.0
+      "balance_rub": 1595910.0
     },
     {
-      "transaction_id": "TX-2026-0069",
+      "transaction_id": "TX-2026-0070",
       "date": "2026-10-08",
       "time": "11:32:18",
       "doc_number": "п/п 729",
@@ -1107,10 +1123,10 @@
       "counterparty_bank": "АО \"АЛЬФА-БАНК\"",
       "counterparty_bik": "044525593",
       "payment_purpose": "Оплата по счету № 81 от 08.10.2026 за изделия из полимеров по спец. № 1. НДС не облагается (УСН).",
-      "balance_rub": 1920710.0
+      "balance_rub": 1635710.0
     },
     {
-      "transaction_id": "TX-2026-0070",
+      "transaction_id": "TX-2026-0071",
       "date": "2026-10-08",
       "time": "12:53:09",
       "doc_number": "239",
@@ -1123,10 +1139,10 @@
       "counterparty_bank": "ФИЛИАЛ \"РОСТОВСКИЙ\" БАНКА ВТБ (ПАО)",
       "counterparty_bik": "046015999",
       "payment_purpose": "Аванс 40% по сч. № 79 от 08.10.2026 за изготовление Защитные колпаки фланцев (PETG). НДС не облагается.",
-      "balance_rub": 1958870.0
+      "balance_rub": 1673870.0
     },
     {
-      "transaction_id": "TX-2026-0071",
+      "transaction_id": "TX-2026-0072",
       "date": "2026-10-08",
       "time": "14:22:04",
       "doc_number": "№ 644",
@@ -1139,10 +1155,10 @@
       "counterparty_bank": "АО \"АЛЬФА-БАНК\"",
       "counterparty_bik": "044525593",
       "payment_purpose": "Постоплата 50% по акту №1 от 07.10.26 за Защитные демпферные накладки. Сумма 52200.00, без НДС",
-      "balance_rub": 2011070.0
+      "balance_rub": 1726070.0
     },
     {
-      "transaction_id": "TX-2026-0072",
+      "transaction_id": "TX-2026-0073",
       "date": "2026-10-08",
       "time": "15:06:29",
       "doc_number": "п/п № 486",
@@ -1155,10 +1171,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "Окончательная оплата (30%) по счету № 147 и Акту № 1 от 07.10.2026 за изделия (Направляющие втулки токарно-револьверных). Без НДС (УСН).",
-      "balance_rub": 2027720.0
+      "balance_rub": 1742720.0
     },
     {
-      "transaction_id": "TX-2026-0073",
+      "transaction_id": "TX-2026-0074",
       "date": "2026-10-08",
       "time": "16:44:05",
       "doc_number": "п/п 559",
@@ -1171,10 +1187,10 @@
       "counterparty_bank": "ПАО КБ \"ЦЕНТР-ИНВЕСТ\"",
       "counterparty_bik": "046015762",
       "payment_purpose": "Окончательная оплата (40%) по счету № 120 и Акту № 1 от 07.10.2026 за изделия (Направляющие планки узла). НДС не обл.",
-      "balance_rub": 2059160.0
+      "balance_rub": 1774160.0
     },
     {
-      "transaction_id": "TX-2026-0074",
+      "transaction_id": "TX-2026-0075",
       "date": "2026-10-09",
       "time": "14:14:40",
       "doc_number": "№ 806",
@@ -1187,10 +1203,10 @@
       "counterparty_bank": "АО \"АЛЬФА-БАНК\"",
       "counterparty_bik": "044525593",
       "payment_purpose": "Постоплата 30% по акту №1 от 08.10.26 за Защитные накладки вилочных. Сумма 26040.00, без НДС",
-      "balance_rub": 2085200.0
+      "balance_rub": 1800200.0
     },
     {
-      "transaction_id": "TX-2026-0075",
+      "transaction_id": "TX-2026-0076",
       "date": "2026-10-10",
       "time": "11:16:25",
       "doc_number": "№ 356",
@@ -1203,10 +1219,10 @@
       "counterparty_bank": "КРАСНОДАРСКОЕ ОТДЕЛЕНИЕ N8619 ПАО СБЕРБАНК",
       "counterparty_bik": "040349602",
       "payment_purpose": "ПРЕДОПЛАТА ПО СЧЕТУ № 45 ОТ 08.10.2026 Г. ЗА ИЗДЕЛИЯ ИЗ TPU 95A. НДС НЕ ОБЛАГАЕТСЯ (УСН).",
-      "balance_rub": 2166190.0
+      "balance_rub": 1881190.0
     },
     {
-      "transaction_id": "TX-2026-0076",
+      "transaction_id": "TX-2026-0077",
       "date": "2026-10-10",
       "time": "12:13:53",
       "doc_number": "п/п 229",
@@ -1219,10 +1235,10 @@
       "counterparty_bank": "ПАО \"СОВКОМБАНК\"",
       "counterparty_bik": "043469740",
       "payment_purpose": "Оплата авансового платежа (50%) по спец. № 1 к договору № СТ/26-08-3D. Без НДС",
-      "balance_rub": 2193890.0
+      "balance_rub": 1908890.0
     },
     {
-      "transaction_id": "TX-2026-0077",
+      "transaction_id": "TX-2026-0078",
       "date": "2026-10-10",
       "time": "14:47:07",
       "doc_number": "п/п 479",
@@ -1235,10 +1251,10 @@
       "counterparty_bank": "КРАСНОДАРСКОЕ ОТДЕЛЕНИЕ N8619 ПАО СБЕРБАНК",
       "counterparty_bik": "040349602",
       "payment_purpose": "Расчет за поставленную продукцию по акту приема-передачи № 1 от 09.10.2026 к дог. № АГАТ-09/2026-ПОСТ. НДС не облагается.",
-      "balance_rub": 2245170.0
+      "balance_rub": 1960170.0
     },
     {
-      "transaction_id": "TX-2026-0078",
+      "transaction_id": "TX-2026-0079",
       "date": "2026-10-10",
       "time": "16:33:21",
       "doc_number": "353",
@@ -1251,10 +1267,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "Постоплата 70% по акту №1 от 09.10.26 за Кронштейны датчиков уровня. Сумма 59640.00, без НДС",
-      "balance_rub": 2304810.0
+      "balance_rub": 2019810.0
     },
     {
-      "transaction_id": "TX-2026-0079",
+      "transaction_id": "TX-2026-0080",
       "date": "2026-10-11",
       "time": "11:34:15",
       "doc_number": "№ 437",
@@ -1267,10 +1283,10 @@
       "counterparty_bank": "ФИЛИАЛ N 2351 БАНКА ВТБ (ПАО)",
       "counterparty_bik": "040349758",
       "payment_purpose": "ПРЕДОПЛАТА ПО СЧЕТУ № 112 ОТ 11.10.2026 Г. ЗА ИЗДЕЛИЯ ИЗ PETG. НДС НЕ ОБЛАГАЕТСЯ.",
-      "balance_rub": 2329002.0
+      "balance_rub": 2044002.0
     },
     {
-      "transaction_id": "TX-2026-0080",
+      "transaction_id": "TX-2026-0081",
       "date": "2026-10-11",
       "time": "13:48:36",
       "doc_number": "№ 203",
@@ -1283,10 +1299,10 @@
       "counterparty_bank": "АО \"ТБАНК\"",
       "counterparty_bik": "044525974",
       "payment_purpose": "ПРЕДОПЛАТА 70% ПО ДОГОВОРУ ПОСТАВКИ № ЮПА-3D-2026/09 ОТ 09.09.2026 И СПЕЦ.1 ЗА 3D-ПЕЧАТЬ ДЕТАЛЕЙ. БЕЗ НДС",
-      "balance_rub": 2387977.0
+      "balance_rub": 2102977.0
     },
     {
-      "transaction_id": "TX-2026-0081",
+      "transaction_id": "TX-2026-0082",
       "date": "2026-10-11",
       "time": "15:12:18",
       "doc_number": "№ 372",
@@ -1299,10 +1315,10 @@
       "counterparty_bank": "ПАО КБ \"ЦЕНТР-ИНВЕСТ\"",
       "counterparty_bik": "046015762",
       "payment_purpose": "Постоплата по договору № ДЭИ/2026-09, Акт № 1 от 10.10.2026 г. за выполненные работы по 3D-печати. Без НДС",
-      "balance_rub": 2456227.0
+      "balance_rub": 2171227.0
     },
     {
-      "transaction_id": "TX-2026-0082",
+      "transaction_id": "TX-2026-0083",
       "date": "2026-10-12",
       "time": "10:59:18",
       "doc_number": "п/п № 757",
@@ -1315,10 +1331,10 @@
       "counterparty_bank": "ПАО КБ \"ЦЕНТР-ИНВЕСТ\"",
       "counterparty_bik": "046015762",
       "payment_purpose": "Аванс 50% за 3D-печать деталей (Клипсы крепления приводов) по спец. № 1 дог. № ВП-2026/08-3D. НДС не обл.",
-      "balance_rub": 2514227.0
+      "balance_rub": 2229227.0
     },
     {
-      "transaction_id": "TX-2026-0083",
+      "transaction_id": "TX-2026-0084",
       "date": "2026-10-12",
       "time": "12:21:38",
       "doc_number": "№ 161",
@@ -1331,10 +1347,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "ПРЕДОПЛАТА 60% ПО ДОГОВОРУ ПОСТАВКИ № РСМ-3D-2026/09 ОТ 17.09.2026 И СПЕЦ.1 ЗА 3D-ПЕЧАТЬ ДЕТАЛЕЙ. БЕЗ НДС",
-      "balance_rub": 2601887.0
+      "balance_rub": 2316887.0
     },
     {
-      "transaction_id": "TX-2026-0084",
+      "transaction_id": "TX-2026-0085",
       "date": "2026-10-12",
       "time": "14:25:22",
       "doc_number": "п/п 750",
@@ -1347,10 +1363,10 @@
       "counterparty_bank": "АО \"АЛЬФА-БАНК\"",
       "counterparty_bik": "044525593",
       "payment_purpose": "Окончат.расчет по спец.1 к дог.пост. ЗАТ-09/2026-ПОСТ от 08.09.2026. НДС не обл.",
-      "balance_rub": 2641687.0
+      "balance_rub": 2356687.0
     },
     {
-      "transaction_id": "TX-2026-0085",
+      "transaction_id": "TX-2026-0086",
       "date": "2026-10-12",
       "time": "15:51:28",
       "doc_number": "257",
@@ -1363,10 +1379,10 @@
       "counterparty_bank": "ФИЛИАЛ \"РОСТОВСКИЙ\" БАНКА ВТБ (ПАО)",
       "counterparty_bik": "046015999",
       "payment_purpose": "Постоплата по договору № ТАГМАШ-2026/09-3D, Акт № 1 от 11.10.2026 г. за выполненные работы по 3D-печати. Без НДС",
-      "balance_rub": 2698927.0
+      "balance_rub": 2413927.0
     },
     {
-      "transaction_id": "TX-2026-0086",
+      "transaction_id": "TX-2026-0087",
       "date": "2026-10-13",
       "time": "12:22:44",
       "doc_number": "№ 347",
@@ -1379,10 +1395,10 @@
       "counterparty_bank": "АО \"АЛЬФА-БАНК\"",
       "counterparty_bik": "044525593",
       "payment_purpose": "Аванс 70% по сч. № 166 от 11.10.2026 за изготовление Мастер-модели проточных частей (PETG). НДС не облагается.",
-      "balance_rub": 2755977.0
+      "balance_rub": 2470977.0
     },
     {
-      "transaction_id": "TX-2026-0087",
+      "transaction_id": "TX-2026-0088",
       "date": "2026-10-14",
       "time": "10:08:49",
       "doc_number": "п/п № 8",
@@ -1395,10 +1411,10 @@
       "counterparty_bank": "ПАО АКБ \"МЕТАЛЛИНВЕСТБАНК\"",
       "counterparty_bik": "044525117",
       "payment_purpose": "Оплата за филамент FDplast (ABS, PETG, угленаполненный пластик) по счету № FD-7741 от 14.10.2026 г. В т.ч. НДС 22% - 24416.39 руб.",
-      "balance_rub": 2620577.0
+      "balance_rub": 2335577.0
     },
     {
-      "transaction_id": "TX-2026-0088",
+      "transaction_id": "TX-2026-0089",
       "date": "2026-10-14",
       "time": "11:06:41",
       "doc_number": "п/п № 9",
@@ -1411,10 +1427,10 @@
       "counterparty_bank": "АО \"ТБанк\"",
       "counterparty_bik": "044525974",
       "payment_purpose": "Оплата по договору поставки сырья № REC-14/09 и счету № 5104 от 23.09.2026 за полиамид PA-CF, PA12, TPU. В т.ч. НДС 22% - 68668.85 руб. Оплата в срок по отсрочке 21 к.д.",
-      "balance_rub": 2239777.0
+      "balance_rub": 1954777.0
     },
     {
-      "transaction_id": "TX-2026-0089",
+      "transaction_id": "TX-2026-0090",
       "date": "2026-10-14",
       "time": "11:08:43",
       "doc_number": "175",
@@ -1427,10 +1443,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "Аванс 50% по сч. № 177 от 13.10.2026 за изготовление Кронштейны тахографов и (ABS). Без НДС (УСН).",
-      "balance_rub": 2275327.0
+      "balance_rub": 1990327.0
     },
     {
-      "transaction_id": "TX-2026-0090",
+      "transaction_id": "TX-2026-0091",
       "date": "2026-10-14",
       "time": "12:18:53",
       "doc_number": "п/п 158",
@@ -1443,10 +1459,10 @@
       "counterparty_bank": "ПАО КБ \"ЦЕНТР-ИНВЕСТ\"",
       "counterparty_bik": "046015762",
       "payment_purpose": "ПРЕДОПЛАТА 50% ПО ДОГОВОРУ ПОСТАВКИ № ССМ-08/2026-ПОСТ ОТ 31.08.2026 И СПЕЦ.2 ЗА 3D-ПЕЧАТЬ ДЕТАЛЕЙ. БЕЗ НДС",
-      "balance_rub": 2308477.0
+      "balance_rub": 2023477.0
     },
     {
-      "transaction_id": "TX-2026-0091",
+      "transaction_id": "TX-2026-0092",
       "date": "2026-10-14",
       "time": "12:55:43",
       "doc_number": "404",
@@ -1459,10 +1475,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "Аванс 50% по сч. № 155 от 12.10.2026 за изготовление Кассеты и дозаторы (Food-Grade PETG). НДС не обл.",
-      "balance_rub": 2360352.0
+      "balance_rub": 2075352.0
     },
     {
-      "transaction_id": "TX-2026-0092",
+      "transaction_id": "TX-2026-0093",
       "date": "2026-10-14",
       "time": "13:57:42",
       "doc_number": "п/п № 745",
@@ -1475,10 +1491,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "Аванс 50% по сч. № 284 от 14.10.2026 за изготовление Цанговые фиксаторы патронов (PETG). НДС не облагается.",
-      "balance_rub": 2388334.5
+      "balance_rub": 2103334.5
     },
     {
-      "transaction_id": "TX-2026-0093",
+      "transaction_id": "TX-2026-0094",
       "date": "2026-10-14",
       "time": "14:50:16",
       "doc_number": "547",
@@ -1491,10 +1507,10 @@
       "counterparty_bank": "АО \"РАЙФФАЙЗЕНБАНК\"",
       "counterparty_bik": "044525700",
       "payment_purpose": "Оплата по счету № 228 от 13.10.2026 за изделия из полимеров по спец. № 2. НДС не обл.",
-      "balance_rub": 2432414.5
+      "balance_rub": 2147414.5
     },
     {
-      "transaction_id": "TX-2026-0094",
+      "transaction_id": "TX-2026-0095",
       "date": "2026-10-14",
       "time": "15:53:48",
       "doc_number": "№ 390",
@@ -1507,10 +1523,10 @@
       "counterparty_bank": "КРАСНОДАРСКОЕ ОТДЕЛЕНИЕ N8619 ПАО СБЕРБАНК",
       "counterparty_bik": "040349602",
       "payment_purpose": "Оплата остатка 30% по сч. № 45 на основании Акта № 1 от 13.10.2026. НДС не обл.",
-      "balance_rub": 2467124.5
+      "balance_rub": 2182124.5
     },
     {
-      "transaction_id": "TX-2026-0095",
+      "transaction_id": "TX-2026-0096",
       "date": "2026-10-14",
       "time": "16:51:21",
       "doc_number": "п/п 265",
@@ -1523,10 +1539,10 @@
       "counterparty_bank": "ПАО \"СОВКОМБАНК\"",
       "counterparty_bik": "043469740",
       "payment_purpose": "Расчет за поставленную продукцию по акту приема-передачи № 1 от 13.10.2026 к дог. № СТ/26-08-3D. НДС не облагается.",
-      "balance_rub": 2494824.5
+      "balance_rub": 2209824.5
     },
     {
-      "transaction_id": "TX-2026-0096",
+      "transaction_id": "TX-2026-0097",
       "date": "2026-10-15",
       "time": "11:50:32",
       "doc_number": "618",
@@ -1539,10 +1555,10 @@
       "counterparty_bank": "АО \"АЛЬФА-БАНК\"",
       "counterparty_bik": "044525593",
       "payment_purpose": "Оплата аванса 50% по счету № 68 от 14.10.2026 к договору поставки № ЭЛА-2026/10. НДС не облагается.",
-      "balance_rub": 2531124.5
+      "balance_rub": 2246124.5
     },
     {
-      "transaction_id": "TX-2026-0097",
+      "transaction_id": "TX-2026-0098",
       "date": "2026-10-15",
       "time": "13:41:16",
       "doc_number": "п/п 739",
@@ -1555,10 +1571,10 @@
       "counterparty_bank": "АО \"РАЙФФАЙЗЕНБАНК\"",
       "counterparty_bik": "044525700",
       "payment_purpose": "Оплата авансового платежа (50%) по спец. № 1 к договору № ДП-3D-2026/09. Без НДС",
-      "balance_rub": 2564724.5
+      "balance_rub": 2279724.5
     },
     {
-      "transaction_id": "TX-2026-0098",
+      "transaction_id": "TX-2026-0099",
       "date": "2026-10-15",
       "time": "15:50:26",
       "doc_number": "№ 229",
@@ -1571,10 +1587,10 @@
       "counterparty_bank": "АО \"ТБАНК\"",
       "counterparty_bik": "044525974",
       "payment_purpose": "ОКОНЧАТЕЛЬНЫЙ РАСЧЕТ 30% ПО АКТУ № 1 ОТ 14.10.2026 К ДОГОВОРУ № ЮПА-3D-2026/09. БЕЗ НДС",
-      "balance_rub": 2589999.5
+      "balance_rub": 2304999.5
     },
     {
-      "transaction_id": "TX-2026-0099",
+      "transaction_id": "TX-2026-0100",
       "date": "2026-10-16",
       "time": "10:46:47",
       "doc_number": "445",
@@ -1587,10 +1603,10 @@
       "counterparty_bank": "ПАО \"СОВКОМБАНК\"",
       "counterparty_bik": "043469740",
       "payment_purpose": "Оплата авансового платежа (50%) по спец. № 2 к договору № НЭВЗ-ПОСТ/2026-09. Без НДС",
-      "balance_rub": 2630459.5
+      "balance_rub": 2345459.5
     },
     {
-      "transaction_id": "TX-2026-0100",
+      "transaction_id": "TX-2026-0101",
       "date": "2026-10-16",
       "time": "12:07:02",
       "doc_number": "п/п № 158",
@@ -1603,10 +1619,10 @@
       "counterparty_bank": "ПАО КБ \"ЦЕНТР-ИНВЕСТ\"",
       "counterparty_bik": "046015762",
       "payment_purpose": "ПРЕДОПЛАТА 50% ПО ДОГОВОРУ ПОСТАВКИ № СКЭСС-08/2026 ОТ 26.08.2026 И СПЕЦ.2 ЗА 3D-ПЕЧАТЬ ДЕТАЛЕЙ. БЕЗ НДС",
-      "balance_rub": 2659979.5
+      "balance_rub": 2374979.5
     },
     {
-      "transaction_id": "TX-2026-0101",
+      "transaction_id": "TX-2026-0102",
       "date": "2026-10-16",
       "time": "13:27:58",
       "doc_number": "п/п № 728",
@@ -1619,10 +1635,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "ПРЕДОПЛАТА 50% ПО ДОГОВОРУ ПОСТАВКИ № АДУ/26-08-П ОТ 03.09.2026 И СПЕЦ.2 ЗА 3D-ПЕЧАТЬ ДЕТАЛЕЙ. БЕЗ НДС",
-      "balance_rub": 2686104.5
+      "balance_rub": 2401104.5
     },
     {
-      "transaction_id": "TX-2026-0102",
+      "transaction_id": "TX-2026-0103",
       "date": "2026-10-16",
       "time": "15:06:35",
       "doc_number": "п/п № 788",
@@ -1635,10 +1651,10 @@
       "counterparty_bank": "ПАО КБ \"ЦЕНТР-ИНВЕСТ\"",
       "counterparty_bik": "046015762",
       "payment_purpose": "ПОСТОПЛАТА 50% ЗА ИЗГОТОВЛЕНИЕ ДЕТАЛЕЙ ПО АКТУ № 1 ОТ 15.10.2026 Г. НДС НЕ ОБЛАГАЕТСЯ",
-      "balance_rub": 2744104.5
+      "balance_rub": 2459104.5
     },
     {
-      "transaction_id": "TX-2026-0103",
+      "transaction_id": "TX-2026-0104",
       "date": "2026-10-16",
       "time": "16:38:58",
       "doc_number": "№ 200",
@@ -1651,10 +1667,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "ОКОНЧАТЕЛЬНЫЙ РАСЧЕТ 40% ПО АКТУ № 1 ОТ 15.10.2026 К ДОГОВОРУ № РСМ-3D-2026/09. БЕЗ НДС",
-      "balance_rub": 2802544.5
+      "balance_rub": 2517544.5
     },
     {
-      "transaction_id": "TX-2026-0104",
+      "transaction_id": "TX-2026-0105",
       "date": "2026-10-17",
       "time": "13:23:08",
       "doc_number": "№ 373",
@@ -1667,10 +1683,10 @@
       "counterparty_bank": "АО \"АЛЬФА-БАНК\"",
       "counterparty_bik": "044525593",
       "payment_purpose": "Постоплата по договору № ТД-3D-2026/08, Акт № 1 от 16.10.2026 г. за выполненные работы по 3D-печати. Без НДС",
-      "balance_rub": 2826994.5
+      "balance_rub": 2541994.5
     },
     {
-      "transaction_id": "TX-2026-0105",
+      "transaction_id": "TX-2026-0106",
       "date": "2026-10-18",
       "time": "10:23:08",
       "doc_number": "341",
@@ -1683,10 +1699,10 @@
       "counterparty_bank": "ПАО СБЕРБАНК",
       "counterparty_bik": "044525225",
       "payment_purpose": "Оплата по сч. № 189 от 17.10.26 за полимерные изделия по спец.1. Сумма 34320.00, без НДС",
-      "balance_rub": 2861314.5
+      "balance_rub": 2576314.5
     },
     {
-      "transaction_id": "TX-2026-0106",
+      "transaction_id": "TX-2026-0107",
       "date": "2026-10-18",
       "time": "11:07:21",
       "doc_number": "768",
@@ -1699,10 +1715,10 @@
       "counterparty_bank": "ПАО КБ \"ЦЕНТР-ИНВЕСТ\"",
       "counterparty_bik": "046015762",
       "payment_purpose": "Оплата по счету № 205 от 16.10.2026 за изделия из полимеров по спец. № 2. НДС не облагается (УСН).",
-      "balance_rub": 2895334.5
+      "balance_rub": 2610334.5
     },
     {
-      "transaction_id": "TX-2026-0107",
+      "transaction_id": "TX-2026-0108",
       "date": "2026-10-18",
       "time": "12:11:12",
       "doc_number": "№ 203",
@@ -1715,10 +1731,10 @@
       "counterparty_bank": "РОСТОВСКИЙ РФ АО \"РОССЕЛЬХОЗБАНК\"",
       "counterparty_bik": "046015211",
       "payment_purpose": "Оплата авансового платежа (50%) по спец. № 2 к договору № СРИС-08/2026-3D. Без НДС",
-      "balance_rub": 2928454.5
+      "balance_rub": 2643454.5
     },
     {
-      "transaction_id": "TX-2026-0108",
+      "transaction_id": "TX-2026-0109",
       "date": "2026-10-18",
       "time": "13:21:43",
       "doc_number": "200",
@@ -1731,10 +1747,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "Предоплата 50% по спец. № 2 к дог. № ЭЛИД-2026/09 от 08.09.2026. НДС не облагается.",
-      "balance_rub": 2958124.5
+      "balance_rub": 2673124.5
     },
     {
-      "transaction_id": "TX-2026-0109",
+      "transaction_id": "TX-2026-0110",
       "date": "2026-10-18",
       "time": "14:40:49",
       "doc_number": "193",
@@ -1747,10 +1763,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "Постоплата по договору № КТ/26-08-3D, Акт № 1 от 17.10.2026 г. за выполненные работы по 3D-печати. Без НДС",
-      "balance_rub": 2993674.5
+      "balance_rub": 2708674.5
     },
     {
-      "transaction_id": "TX-2026-0110",
+      "transaction_id": "TX-2026-0111",
       "date": "2026-10-18",
       "time": "15:40:27",
       "doc_number": "п/п 769",
@@ -1763,10 +1779,10 @@
       "counterparty_bank": "АО \"РАЙФФАЙЗЕНБАНК\"",
       "counterparty_bik": "044525700",
       "payment_purpose": "Расчет за поставленную продукцию по акту приема-передачи № 1 от 17.10.2026 к дог. № ДП-3D-2026/09. НДС не облагается.",
-      "balance_rub": 3027274.5
+      "balance_rub": 2742274.5
     },
     {
-      "transaction_id": "TX-2026-0111",
+      "transaction_id": "TX-2026-0112",
       "date": "2026-10-18",
       "time": "16:47:54",
       "doc_number": "427",
@@ -1779,10 +1795,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "Постоплата по договору № ФАРМ-08/2026-3D, Акт № 1 от 17.10.2026 г. за выполненные работы по 3D-печати. Без НДС",
-      "balance_rub": 3079149.5
+      "balance_rub": 2794149.5
     },
     {
-      "transaction_id": "TX-2026-0112",
+      "transaction_id": "TX-2026-0113",
       "date": "2026-10-19",
       "time": "12:12:48",
       "doc_number": "п/п № 10",
@@ -1795,10 +1811,10 @@
       "counterparty_bank": "АО \"АЛЬФА-БАНК\"",
       "counterparty_bik": "044525593",
       "payment_purpose": "Оплата по счету № PM-26/104 от 19.10.2026 за инженерный пруток PolyMide PA-CF, PolyMax PC, PETG. В т.ч. НДС 22% - 49644.26 руб.",
-      "balance_rub": 2803849.5
+      "balance_rub": 2518849.5
     },
     {
-      "transaction_id": "TX-2026-0113",
+      "transaction_id": "TX-2026-0114",
       "date": "2026-10-19",
       "time": "14:39:08",
       "doc_number": "№ 778",
@@ -1811,10 +1827,10 @@
       "counterparty_bank": "КРАСНОДАРСКОЕ ОТДЕЛЕНИЕ N8619 ПАО СБЕРБАНК",
       "counterparty_bik": "040349602",
       "payment_purpose": "Постоплата 50% по акту №1 от 16.10.26 за Кронштейны антенно-фидерных устройств. Сумма 42780.00, без НДС",
-      "balance_rub": 2846629.5
+      "balance_rub": 2561629.5
     },
     {
-      "transaction_id": "TX-2026-0114",
+      "transaction_id": "TX-2026-0115",
       "date": "2026-10-20",
       "time": "11:15:27",
       "doc_number": "п/п № 274",
@@ -1827,10 +1843,10 @@
       "counterparty_bank": "ФИЛИАЛ \"РОСТОВСКИЙ\" БАНКА ВТБ (ПАО)",
       "counterparty_bik": "046015999",
       "payment_purpose": "Оплата по сч. № 273 от 20.10.26 за полимерные изделия по спец.2. Сумма 20475.00, без НДС",
-      "balance_rub": 2867104.5
+      "balance_rub": 2582104.5
     },
     {
-      "transaction_id": "TX-2026-0115",
+      "transaction_id": "TX-2026-0116",
       "date": "2026-10-20",
       "time": "12:42:59",
       "doc_number": "№ 835",
@@ -1843,10 +1859,10 @@
       "counterparty_bank": "ПАО КБ \"ЦЕНТР-ИНВЕСТ\"",
       "counterparty_bik": "046015762",
       "payment_purpose": "Оплата по счету № 217 от 18.10.2026 за изделия из полимеров по спец. № 2. НДС не облагается (УСН).",
-      "balance_rub": 2889604.5
+      "balance_rub": 2604604.5
     },
     {
-      "transaction_id": "TX-2026-0116",
+      "transaction_id": "TX-2026-0117",
       "date": "2026-10-20",
       "time": "14:44:27",
       "doc_number": "п/п № 240",
@@ -1859,10 +1875,10 @@
       "counterparty_bank": "АО \"АЛЬФА-БАНК\"",
       "counterparty_bik": "044525593",
       "payment_purpose": "Аванс 50% по сч. № 187 от 18.10.2026 за изготовление Крепежные обоймы физиотерапевтических (PETG). НДС не облагается (УСН).",
-      "balance_rub": 2910394.5
+      "balance_rub": 2625394.5
     },
     {
-      "transaction_id": "TX-2026-0117",
+      "transaction_id": "TX-2026-0118",
       "date": "2026-10-20",
       "time": "15:49:37",
       "doc_number": "519",
@@ -1875,10 +1891,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "Аванс за изготовление деталей по спец №2 к дог. от 11.09.26. НДС не облагается.",
-      "balance_rub": 2939157.0
+      "balance_rub": 2654157.0
     },
     {
-      "transaction_id": "TX-2026-0118",
+      "transaction_id": "TX-2026-0119",
       "date": "2026-10-21",
       "time": "10:53:19",
       "doc_number": "п/п № 407",
@@ -1891,10 +1907,10 @@
       "counterparty_bank": "ПАО КБ \"ЦЕНТР-ИНВЕСТ\"",
       "counterparty_bik": "046015762",
       "payment_purpose": "Аванс 50% за 3D-печать деталей (Герметизирующие кабельные проходки) по спец. № 1 дог. № АХТ-2026/10. НДС не обл.",
-      "balance_rub": 2973119.5
+      "balance_rub": 2688119.5
     },
     {
-      "transaction_id": "TX-2026-0119",
+      "transaction_id": "TX-2026-0120",
       "date": "2026-10-21",
       "time": "13:34:03",
       "doc_number": "п/п № 777",
@@ -1907,10 +1923,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "Оплата остатка 50% по сч. № 284 на основании Акта № 2 от 19.10.2026. НДС не облагается.",
-      "balance_rub": 3001102.0
+      "balance_rub": 2716102.0
     },
     {
-      "transaction_id": "TX-2026-0120",
+      "transaction_id": "TX-2026-0121",
       "date": "2026-10-21",
       "time": "15:47:46",
       "doc_number": "581",
@@ -1923,10 +1939,10 @@
       "counterparty_bank": "АО \"РАЙФФАЙЗЕНБАНК\"",
       "counterparty_bik": "044525700",
       "payment_purpose": "Окончательная оплата (50%) по счету № 228 и Акту № 2 от 19.10.2026 за изделия (Кронштейн дисплея тип). НДС не обл.",
-      "balance_rub": 3045182.0
+      "balance_rub": 2760182.0
     },
     {
-      "transaction_id": "TX-2026-0121",
+      "transaction_id": "TX-2026-0122",
       "date": "2026-10-22",
       "time": "10:59:41",
       "doc_number": "№ 789",
@@ -1939,10 +1955,10 @@
       "counterparty_bank": "АО \"АЛЬФА-БАНК\"",
       "counterparty_bik": "044525593",
       "payment_purpose": "Оплата по счету № 251 от 21.10.2026 за изделия из полимеров по спец. № 2. Без НДС (УСН).",
-      "balance_rub": 3072352.0
+      "balance_rub": 2787352.0
     },
     {
-      "transaction_id": "TX-2026-0122",
+      "transaction_id": "TX-2026-0123",
       "date": "2026-10-22",
       "time": "12:26:40",
       "doc_number": "п/п 299",
@@ -1955,10 +1971,10 @@
       "counterparty_bank": "ФИЛИАЛ \"РОСТОВСКИЙ\" БАНКА ВТБ (ПАО)",
       "counterparty_bik": "046015999",
       "payment_purpose": "ПРЕДОПЛАТА ПО СЧЕТУ № 254 ОТ 20.10.2026 Г. ЗА ИЗДЕЛИЯ ИЗ PETG. НДС НЕ ОБЛАГАЕТСЯ.",
-      "balance_rub": 3099652.0
+      "balance_rub": 2814652.0
     },
     {
-      "transaction_id": "TX-2026-0123",
+      "transaction_id": "TX-2026-0124",
       "date": "2026-10-22",
       "time": "13:14:13",
       "doc_number": "№ 263",
@@ -1971,10 +1987,10 @@
       "counterparty_bank": "АО \"ТБАНК\"",
       "counterparty_bik": "044525974",
       "payment_purpose": "Аванс за изготовление деталей по спец №2 к дог. от 09.09.26. НДС не облагается.",
-      "balance_rub": 3127252.0
+      "balance_rub": 2842252.0
     },
     {
-      "transaction_id": "TX-2026-0124",
+      "transaction_id": "TX-2026-0125",
       "date": "2026-10-22",
       "time": "15:07:57",
       "doc_number": "№ 467",
@@ -1987,10 +2003,10 @@
       "counterparty_bank": "ФИЛИАЛ N 2351 БАНКА ВТБ (ПАО)",
       "counterparty_bik": "040349758",
       "payment_purpose": "Оплата остатка 60% по сч. № 112 на основании Акта № 1 от 20.10.2026. НДС не облагается (УСН).",
-      "balance_rub": 3163540.0
+      "balance_rub": 2878540.0
     },
     {
-      "transaction_id": "TX-2026-0125",
+      "transaction_id": "TX-2026-0126",
       "date": "2026-10-22",
       "time": "16:25:31",
       "doc_number": "п/п 177",
@@ -2003,10 +2019,10 @@
       "counterparty_bank": "ПАО КБ \"ЦЕНТР-ИНВЕСТ\"",
       "counterparty_bik": "046015762",
       "payment_purpose": "Постоплата по договору № ССМ-08/2026-ПОСТ, Акт № 2 от 20.10.2026 г. за выполненные работы по 3D-печати. Без НДС",
-      "balance_rub": 3196690.0
+      "balance_rub": 2911690.0
     },
     {
-      "transaction_id": "TX-2026-0126",
+      "transaction_id": "TX-2026-0127",
       "date": "2026-10-23",
       "time": "10:38:24",
       "doc_number": "п/п № 11",
@@ -2019,10 +2035,10 @@
       "counterparty_bank": "АО \"ТБанк\"",
       "counterparty_bik": "044525974",
       "payment_purpose": "ОПЛАТА ЗА ИНЖЕНЕРНЫЙ ФИЛАМЕНТ PA-CF, PC И ПИЩЕВОЙ PETG ПО СЧ. № 5280 ОТ 02.10.2026. В Т.Ч. НДС 22% - 35470.49 РУБ. ОПЛАТА В СРОК ПО ОТСРОЧКЕ 21 К.Д.",
-      "balance_rub": 2999990.0
+      "balance_rub": 2714990.0
     },
     {
-      "transaction_id": "TX-2026-0127",
+      "transaction_id": "TX-2026-0128",
       "date": "2026-10-23",
       "time": "11:38:45",
       "doc_number": "464",
@@ -2035,10 +2051,10 @@
       "counterparty_bank": "ПАО \"СОВКОМБАНК\"",
       "counterparty_bik": "043469740",
       "payment_purpose": "ПОСТОПЛАТА 50% ЗА ИЗГОТОВЛЕНИЕ ДЕТАЛЕЙ ПО АКТУ № 2 ОТ 21.10.2026 Г. НДС НЕ ОБЛАГАЕТСЯ",
-      "balance_rub": 3040450.0
+      "balance_rub": 2755450.0
     },
     {
-      "transaction_id": "TX-2026-0128",
+      "transaction_id": "TX-2026-0129",
       "date": "2026-10-23",
       "time": "12:58:57",
       "doc_number": "п/п № 190",
@@ -2051,10 +2067,10 @@
       "counterparty_bank": "ПАО КБ \"ЦЕНТР-ИНВЕСТ\"",
       "counterparty_bik": "046015762",
       "payment_purpose": "Постоплата по договору № СКЭСС-08/2026, Акт № 2 от 21.10.2026 г. за выполненные работы по 3D-печати. Без НДС",
-      "balance_rub": 3069970.0
+      "balance_rub": 2784970.0
     },
     {
-      "transaction_id": "TX-2026-0129",
+      "transaction_id": "TX-2026-0130",
       "date": "2026-10-23",
       "time": "15:55:25",
       "doc_number": "п/п № 755",
@@ -2067,10 +2083,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "Постоплата по договору № АДУ/26-08-П, Акт № 2 от 21.10.2026 г. за выполненные работы по 3D-печати. Без НДС",
-      "balance_rub": 3096095.0
+      "balance_rub": 2811095.0
     },
     {
-      "transaction_id": "TX-2026-0130",
+      "transaction_id": "TX-2026-0131",
       "date": "2026-10-24",
       "time": "10:58:26",
       "doc_number": "№ 834",
@@ -2083,10 +2099,10 @@
       "counterparty_bank": "ФИЛИАЛ \"РОСТОВСКИЙ\" БАНКА ВТБ (ПАО)",
       "counterparty_bik": "046015999",
       "payment_purpose": "ПРЕДОПЛАТА 50% ПО ДОГОВОРУ ПОСТАВКИ № АОМЗ-3D/2026-10 ОТ 18.10.2026 И СПЕЦ.1 ЗА 3D-ПЕЧАТЬ ДЕТАЛЕЙ. БЕЗ НДС",
-      "balance_rub": 3137325.0
+      "balance_rub": 2852325.0
     },
     {
-      "transaction_id": "TX-2026-0131",
+      "transaction_id": "TX-2026-0132",
       "date": "2026-10-24",
       "time": "13:01:34",
       "doc_number": "п/п 407",
@@ -2099,10 +2115,10 @@
       "counterparty_bank": "АО \"АЛЬФА-БАНК\"",
       "counterparty_bik": "044525593",
       "payment_purpose": "Аванс 50% по сч. № 235 от 23.10.2026 за изготовление Корпуса согласующих плат (PETG). Без НДС (УСН).",
-      "balance_rub": 3164495.0
+      "balance_rub": 2879495.0
     },
     {
-      "transaction_id": "TX-2026-0132",
+      "transaction_id": "TX-2026-0133",
       "date": "2026-10-24",
       "time": "13:59:23",
       "doc_number": "п/п № 817",
@@ -2115,10 +2131,10 @@
       "counterparty_bank": "ПАО КБ \"ЦЕНТР-ИНВЕСТ\"",
       "counterparty_bik": "046015762",
       "payment_purpose": "Аванс 50% по сч. № 217 от 24.10.2026 за изготовление Лопатки вспомогательных вентиляторов (PA-CF). Без НДС (УСН).",
-      "balance_rub": 3206495.0
+      "balance_rub": 2921495.0
     },
     {
-      "transaction_id": "TX-2026-0133",
+      "transaction_id": "TX-2026-0134",
       "date": "2026-10-24",
       "time": "16:09:54",
       "doc_number": "№ 221",
@@ -2131,10 +2147,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "Аванс 50% за 3D-печать деталей (Дистанционные втулки и) по спец. № 2 дог. № РСМ-3D-2026/09. НДС не обл.",
-      "balance_rub": 3248390.0
+      "balance_rub": 2963390.0
     },
     {
-      "transaction_id": "TX-2026-0134",
+      "transaction_id": "TX-2026-0135",
       "date": "2026-10-25",
       "time": "13:37:15",
       "doc_number": "653",
@@ -2147,10 +2163,10 @@
       "counterparty_bank": "АО \"АЛЬФА-БАНК\"",
       "counterparty_bik": "044525593",
       "payment_purpose": "Постоплата 50% по акту №1 от 23.10.26 за Изолирующие и антифрикционные. Сумма 36300.00, без НДС",
-      "balance_rub": 3284690.0
+      "balance_rub": 2999690.0
     },
     {
-      "transaction_id": "TX-2026-0135",
+      "transaction_id": "TX-2026-0136",
       "date": "2026-10-26",
       "time": "10:12:02",
       "doc_number": "235",
@@ -2163,10 +2179,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "Оплата авансового платежа (50%) по спец. № 2 к договору № КТ/26-08-3D. Без НДС",
-      "balance_rub": 3325445.0
+      "balance_rub": 3040445.0
     },
     {
-      "transaction_id": "TX-2026-0136",
+      "transaction_id": "TX-2026-0137",
       "date": "2026-10-26",
       "time": "10:53:36",
       "doc_number": "п/п № 12",
@@ -2179,10 +2195,10 @@
       "counterparty_bank": "СИБИРСКИЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046902606",
       "payment_purpose": "Оплата по счету № BF-2026/1055 от 05.10.2026 за филамент ASA, TPU, PA-CF (цех Краснодар). В т.ч. НДС 22% - 22829.51 руб. Оплата в срок по отсрочке 21 к.д.",
-      "balance_rub": 3198845.0
+      "balance_rub": 2913845.0
     },
     {
-      "transaction_id": "TX-2026-0137",
+      "transaction_id": "TX-2026-0138",
       "date": "2026-10-26",
       "time": "11:51:44",
       "doc_number": "п/п № 799",
@@ -2195,10 +2211,10 @@
       "counterparty_bank": "АО \"РАЙФФАЙЗЕНБАНК\"",
       "counterparty_bik": "044525700",
       "payment_purpose": "Оплата аванса 50% по счету № 228 от 24.10.2026 к договору поставки № ДП-3D-2026/09. НДС не облагается.",
-      "balance_rub": 3254735.0
+      "balance_rub": 2969735.0
     },
     {
-      "transaction_id": "TX-2026-0138",
+      "transaction_id": "TX-2026-0139",
       "date": "2026-10-26",
       "time": "12:33:29",
       "doc_number": "п/п 464",
@@ -2211,10 +2227,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "ПРЕДОПЛАТА ПО СЧЕТУ № 246 ОТ 26.10.2026 Г. ЗА ИЗДЕЛИЯ ИЗ Food-Grade PETG. НДС НЕ ОБЛАГАЕТСЯ.",
-      "balance_rub": 3305735.0
+      "balance_rub": 3020735.0
     },
     {
-      "transaction_id": "TX-2026-0139",
+      "transaction_id": "TX-2026-0140",
       "date": "2026-10-26",
       "time": "14:15:57",
       "doc_number": "798",
@@ -2227,10 +2243,10 @@
       "counterparty_bank": "ПАО КБ \"ЦЕНТР-ИНВЕСТ\"",
       "counterparty_bik": "046015762",
       "payment_purpose": "Окончательная оплата (40%) по счету № 205 и Акту № 2 от 23.10.2026 за изделия (Усиленные ручки и). НДС не облагается.",
-      "balance_rub": 3328415.0
+      "balance_rub": 3043415.0
     },
     {
-      "transaction_id": "TX-2026-0140",
+      "transaction_id": "TX-2026-0141",
       "date": "2026-10-26",
       "time": "15:38:43",
       "doc_number": "№ 223",
@@ -2243,10 +2259,10 @@
       "counterparty_bank": "РОСТОВСКИЙ РФ АО \"РОССЕЛЬХОЗБАНК\"",
       "counterparty_bik": "046015211",
       "payment_purpose": "ПОСТОПЛАТА 50% ЗА ИЗГОТОВЛЕНИЕ ДЕТАЛЕЙ ПО АКТУ № 2 ОТ 23.10.2026 Г. НДС НЕ ОБЛАГАЕТСЯ",
-      "balance_rub": 3361535.0
+      "balance_rub": 3076535.0
     },
     {
-      "transaction_id": "TX-2026-0141",
+      "transaction_id": "TX-2026-0142",
       "date": "2026-10-26",
       "time": "16:52:24",
       "doc_number": "238",
@@ -2259,10 +2275,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "Окончат.расчет по спец.2 к дог.пост. ЭЛИД-2026/09 от 08.09.2026. НДС не обл.",
-      "balance_rub": 3391205.0
+      "balance_rub": 3106205.0
     },
     {
-      "transaction_id": "TX-2026-0142",
+      "transaction_id": "TX-2026-0143",
       "date": "2026-10-27",
       "time": "10:41:20",
       "doc_number": "п/п № 313",
@@ -2275,10 +2291,10 @@
       "counterparty_bank": "ФИЛИАЛ \"РОСТОВСКИЙ\" БАНКА ВТБ (ПАО)",
       "counterparty_bik": "046015999",
       "payment_purpose": "Постоплата 50% по акту №2 от 25.10.26 за Защитные крышки клеммных. Сумма 20475.00, без НДС",
-      "balance_rub": 3411680.0
+      "balance_rub": 3126680.0
     },
     {
-      "transaction_id": "TX-2026-0143",
+      "transaction_id": "TX-2026-0144",
       "date": "2026-10-27",
       "time": "12:56:14",
       "doc_number": "№ 857",
@@ -2291,10 +2307,10 @@
       "counterparty_bank": "ПАО КБ \"ЦЕНТР-ИНВЕСТ\"",
       "counterparty_bik": "046015762",
       "payment_purpose": "Окончательная оплата (50%) по счету № 217 и Акту № 2 от 25.10.2026 за изделия (Рукоятки и заглушки). Без НДС (УСН).",
-      "balance_rub": 3434180.0
+      "balance_rub": 3149180.0
     },
     {
-      "transaction_id": "TX-2026-0144",
+      "transaction_id": "TX-2026-0145",
       "date": "2026-10-27",
       "time": "14:44:24",
       "doc_number": "п/п № 259",
@@ -2307,10 +2323,10 @@
       "counterparty_bank": "АО \"АЛЬФА-БАНК\"",
       "counterparty_bik": "044525593",
       "payment_purpose": "Оплата остатка 50% по сч. № 187 на основании Акта № 2 от 25.10.2026. НДС не облагается (УСН).",
-      "balance_rub": 3454970.0
+      "balance_rub": 3169970.0
     },
     {
-      "transaction_id": "TX-2026-0145",
+      "transaction_id": "TX-2026-0146",
       "date": "2026-10-27",
       "time": "15:49:39",
       "doc_number": "538",
@@ -2323,10 +2339,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "Расчет за поставленную продукцию по акту приема-передачи № 2 от 25.10.2026 к дог. № РМЗ-3D-2026/09. НДС не облагается.",
-      "balance_rub": 3483732.5
+      "balance_rub": 3198732.5
     },
     {
-      "transaction_id": "TX-2026-0146",
+      "transaction_id": "TX-2026-0147",
       "date": "2026-10-29",
       "time": "10:42:16",
       "doc_number": "358",
@@ -2339,10 +2355,10 @@
       "counterparty_bank": "ПАО СБЕРБАНК",
       "counterparty_bik": "044525225",
       "payment_purpose": "Доплата 50% по акту № 1 от 27.10.2026 к спец. № 1 дог. № СИГ-3D/2026-10. НДС не обл.",
-      "balance_rub": 3518052.5
+      "balance_rub": 3233052.5
     },
     {
-      "transaction_id": "TX-2026-0147",
+      "transaction_id": "TX-2026-0148",
       "date": "2026-10-29",
       "time": "12:26:22",
       "doc_number": "№ 816",
@@ -2355,10 +2371,10 @@
       "counterparty_bank": "АО \"АЛЬФА-БАНК\"",
       "counterparty_bik": "044525593",
       "payment_purpose": "Окончательная оплата (50%) по счету № 251 и Акту № 2 от 27.10.2026 за изделия (Защитные экраны электропроводки). НДС не облагается (УСН).",
-      "balance_rub": 3545222.5
+      "balance_rub": 3260222.5
     },
     {
-      "transaction_id": "TX-2026-0148",
+      "transaction_id": "TX-2026-0149",
       "date": "2026-10-29",
       "time": "14:37:14",
       "doc_number": "п/п 323",
@@ -2371,10 +2387,10 @@
       "counterparty_bank": "ФИЛИАЛ \"РОСТОВСКИЙ\" БАНКА ВТБ (ПАО)",
       "counterparty_bik": "046015999",
       "payment_purpose": "Доплата 50% по акту № 2 от 27.10.2026 к спец. № 2 дог. № ТАГМАШ-2026/09-3D. НДС не обл.",
-      "balance_rub": 3572522.5
+      "balance_rub": 3287522.5
     },
     {
-      "transaction_id": "TX-2026-0149",
+      "transaction_id": "TX-2026-0150",
       "date": "2026-10-29",
       "time": "16:25:11",
       "doc_number": "№ 291",
@@ -2387,10 +2403,10 @@
       "counterparty_bank": "АО \"ТБАНК\"",
       "counterparty_bik": "044525974",
       "payment_purpose": "Расчет за поставленную продукцию по акту приема-передачи № 2 от 27.10.2026 к дог. № ЮПА-3D-2026/09. НДС не облагается.",
-      "balance_rub": 3600122.5
+      "balance_rub": 3315122.5
     },
     {
-      "transaction_id": "TX-2026-0150",
+      "transaction_id": "TX-2026-0151",
       "date": "2026-10-30",
       "time": "11:55:34",
       "doc_number": "п/п № 13",
@@ -2403,10 +2419,10 @@
       "counterparty_bank": "АО \"ТБанк\"",
       "counterparty_bik": "044525974",
       "payment_purpose": "Оплата по счету № 5419 от 09.10.2026 за партию филамента PA-CF, PETG, TPU по спец. № 7. В т.ч. НДС 22% - 56262.30 руб. Оплата в срок по отсрочке 21 к.д.",
-      "balance_rub": 3288122.5
+      "balance_rub": 3003122.5
     },
     {
-      "transaction_id": "TX-2026-0151",
+      "transaction_id": "TX-2026-0152",
       "date": "2026-10-31",
       "time": "11:25:11",
       "doc_number": "п/п 439",
@@ -2419,10 +2435,10 @@
       "counterparty_bank": "АО \"АЛЬФА-БАНК\"",
       "counterparty_bik": "044525593",
       "payment_purpose": "Оплата остатка 50% по сч. № 235 на основании Акта № 2 от 29.10.2026. НДС не обл.",
-      "balance_rub": 3315292.5
+      "balance_rub": 3030292.5
     },
     {
-      "transaction_id": "TX-2026-0152",
+      "transaction_id": "TX-2026-0153",
       "date": "2026-10-31",
       "time": "13:13:25",
       "doc_number": "п/п № 839",
@@ -2435,10 +2451,10 @@
       "counterparty_bank": "ПАО КБ \"ЦЕНТР-ИНВЕСТ\"",
       "counterparty_bik": "046015762",
       "payment_purpose": "Оплата остатка 50% по сч. № 217 на основании Акта № 2 от 29.10.2026. НДС не облагается (УСН).",
-      "balance_rub": 3357292.5
+      "balance_rub": 3072292.5
     },
     {
-      "transaction_id": "TX-2026-0153",
+      "transaction_id": "TX-2026-0154",
       "date": "2026-10-31",
       "time": "15:39:53",
       "doc_number": "№ 243",
@@ -2451,10 +2467,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "Окончательный расчет (50%) по Акту приема-передачи № 2 от 29.10.2026 г. НДС не облагается (УСН).",
-      "balance_rub": 3399187.5
+      "balance_rub": 3114187.5
     },
     {
-      "transaction_id": "TX-2026-0154",
+      "transaction_id": "TX-2026-0155",
       "date": "2026-11-01",
       "time": "13:30:27",
       "doc_number": "п/п № 431",
@@ -2467,10 +2483,10 @@
       "counterparty_bank": "ПАО КБ \"ЦЕНТР-ИНВЕСТ\"",
       "counterparty_bik": "046015762",
       "payment_purpose": "ПОСТОПЛАТА 50% ЗА ИЗГОТОВЛЕНИЕ ДЕТАЛЕЙ ПО АКТУ № 1 ОТ 30.10.2026 Г. НДС НЕ ОБЛАГАЕТСЯ",
-      "balance_rub": 3433150.0
+      "balance_rub": 3148150.0
     },
     {
-      "transaction_id": "TX-2026-0155",
+      "transaction_id": "TX-2026-0156",
       "date": "2026-11-03",
       "time": "11:29:33",
       "doc_number": "251",
@@ -2483,10 +2499,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "ПОСТОПЛАТА 50% ЗА ИЗГОТОВЛЕНИЕ ДЕТАЛЕЙ ПО АКТУ № 2 ОТ 01.11.2026 Г. НДС НЕ ОБЛАГАЕТСЯ",
-      "balance_rub": 3473905.0
+      "balance_rub": 3188905.0
     },
     {
-      "transaction_id": "TX-2026-0156",
+      "transaction_id": "TX-2026-0157",
       "date": "2026-11-03",
       "time": "13:52:33",
       "doc_number": "п/п № 837",
@@ -2499,10 +2515,10 @@
       "counterparty_bank": "АО \"РАЙФФАЙЗЕНБАНК\"",
       "counterparty_bik": "044525700",
       "payment_purpose": "ОКОНЧАТЕЛЬНЫЙ РАСЧЕТ 50% ПО АКТУ № 2 ОТ 01.11.2026 К ДОГОВОРУ № ДП-3D-2026/09. БЕЗ НДС",
-      "balance_rub": 3529795.0
+      "balance_rub": 3244795.0
     },
     {
-      "transaction_id": "TX-2026-0157",
+      "transaction_id": "TX-2026-0158",
       "date": "2026-11-03",
       "time": "16:10:59",
       "doc_number": "п/п 480",
@@ -2515,10 +2531,10 @@
       "counterparty_bank": "ЮГО-ЗАПАДНЫЙ БАНК ПАО СБЕРБАНК",
       "counterparty_bik": "046015602",
       "payment_purpose": "Доплата 50% по акту № 2 от 01.11.2026 к спец. № 2 дог. № ФАРМ-08/2026-3D. НДС не обл.",
-      "balance_rub": 3580795.0
+      "balance_rub": 3295795.0
     },
     {
-      "transaction_id": "TX-2026-0158",
+      "transaction_id": "TX-2026-0159",
       "date": "2026-11-04",
       "time": "14:42:12",
       "doc_number": "№ 855",
@@ -2531,7 +2547,7 @@
       "counterparty_bank": "ФИЛИАЛ \"РОСТОВСКИЙ\" БАНКА ВТБ (ПАО)",
       "counterparty_bik": "046015999",
       "payment_purpose": "ОКОНЧАТЕЛЬНЫЙ РАСЧЕТ 50% ПО АКТУ № 1 ОТ 02.11.2026 К ДОГОВОРУ № АОМЗ-3D/2026-10. БЕЗ НДС",
-      "balance_rub": 3622025.0
+      "balance_rub": 3337025.0
     }
   ]
 }
